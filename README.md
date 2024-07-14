@@ -1,9 +1,5 @@
-<p align="center" width="100%">
-    <img height="100" src="https://github.com/">
-</p>
 
----
-# [Built Portfolio With GitHub ](https://github.com/SaiDBCART/Sai_PortFolio)
+# [Built Portfolio With GitHub ](https://github.com/SaiDBCART/Sai_PortFolio/)
 
 ---
 
