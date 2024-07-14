@@ -53,6 +53,7 @@ import php from '/public/svg/skills/php.svg';
 import picsart from '/public/svg/skills/picsart.svg';
 import postgresql from '/public/svg/skills/postgresql.svg';
 import premierepro from '/public/svg/skills/premierepro.svg';
+import primeng from '/public/svg/skills/primeng.jpg';
 import python from '/public/svg/skills/python.svg';
 import pytorch from '/public/svg/skills/pytorch.svg';
 import react from '/public/svg/skills/react.svg';
@@ -184,7 +185,9 @@ export const skillsImage = (skill) => {
     case 'opencv':
       return opencv;
     case 'premiere pro':
-      return premierepro;
+      return  premierepro;
+      case 'primeng':
+        return primeng;
     case 'pytorch':
       return pytorch;
     case 'selenium':

@@ -1,48 +1,60 @@
 import ayla from '/public/image/ayla.jpg';
-import crefin from '/public/image/crefin.jpg';
-import realEstate from '/public/image/real-estate.jpg';
-import travel from '/public/image/travel.jpg';
-
+import recruiter from '/public/image/recruiter.jpg';
+import socialapps from '/public/image/socialapps.jpg';
+import ledger from '/public/image/ledger.jpg';
+import meat from '/public/image/meat.jpg';
 export const projectsData = [
     {
         id: 1,
-        name: 'AI Powered Financial App',
-        description: "Me and my team built an AI-powered financial mobile application. I have developed API using Express, Typescript, OpenAI, AWS, and MongoDB. Used OTP via AWS SES, Google, and Facebook for the authentication system. Built AI assistants using OpenAI's latest model and trained using our dataset. Voice messages are converted to text using AWS Transcribe. The app fetches data from Google Sheets and generates a PDF term sheet, sent via AWS SES.",
-        tools: ['Express', 'MongoDB', 'OpenAI API', 'AWS SES', 'AWS S3', 'Node Mailer', 'Joi', 'Puppeteer', 'EC2', 'PM2', 'Nginx'],
-        role: 'Backend Developer',
+        name: 'DiA Recruiter',
+        description: "This is about recruitment consultancy of an application consultant is to assist and support businesses and organizations in developing technological solutions. In this role, you will be looking at the specific needs and requirements of organizations and understand their business process so you can create systems or solutions that meet their needs.",
+        tools: ['Nodejs', 'MongoDB', 'Angular','bootstrap'],
+        role: 'Frontend Developer',
         code: '',
         demo: '',
-        image: crefin,
+        image: recruiter,
     },
     {
         id: 2,
-        name: 'Travel Agency App',
-        description: 'I have designed and developed a full-stack web app for 2Expedition, a travel agency in Armenia. I created the UI using NextJS, Typescript, MUI, TailwindCSS, Google Maps, Sun-Editor, and React Slick. The app supports multiple languages and currencies. I developed the API using NestJS, Typescript, MySQL, TypeORM, AWS, and Nodemailer. I deployed the front-end app to AWS Amplify and the back-end app to AWS EC2.',
-        tools: ['NextJS', 'Tailwind CSS', "Google Maps", "NestJS", "TypeScript", "MySQL", "AWS S3", "Sun-Editor", "Gmail Passkey"],
-        role: 'Full Stack Developer',
+        name: 'R-Dots Infomaps',
+        description: 'we are creating the ledger for the huge size business account transaction details and we generate the ledger for both credit and debit transaction, working on the user interface-fronted and Rest Api all client requirement module.Worked on User interface and rest api for Reconciliation, Transaction, Transaction Sub types, Client  category and more modules.',
+        tools: ["Angular","Bootstrap","TypeScript", "Mssql","Dotnet"],
+        role: 'UI and Frontend Developer',
         code: '',
         demo: '',
-        image: travel,
+        image: ledger,
     },
     {
         id: 3,
-        name: 'AI Powered Real Estate',
-        description: 'My team built an AI-based real estate app using Replicate API and OpenAI. We used Express, Typescript, OpenAI, Replicate, Stripe, and Mongoose to develop the API. We utilized NextJS, Formik, TailwindCSS, and other npm libraries for the UI. We have trained multiple AI assistants using the latest GPT model and integrated Replicate API for image processing. We added role-based auth, subscription plans, Cron job scheduling, and payment integration with Stripe.',
-        tools: ['React', 'Bootstrap', 'SCSS', 'Stripe', 'Express', 'TypeScript', 'MongoDB', 'Azure Blob', 'OpenAI API', 'Replicate AI', 'Cronjob', 'JWT'],
+        name: 'Buzzheds',
+        description: 'One of the social media application, that facilitates the sharing of ideas, thoughts, and information through virtual  networks and communities.Worked on Chat Module, that the message passing one user to another user with the Chat User interface in both maximized and minimized chat',
+        tools: ['React', 'Bootstrap', 'SCSS', 'Express','nodejs', 'TypeScript', 'MongoDB', ],
         code: '',
-        role: 'Full Stack Developer',
+        role: 'Frontend Developer & Api Creation for some module',
         demo: '',
-        image: realEstate,
+        image: socialapps,
     },
     {
         id: 4,
-        name: 'Newsroom Management',
-        description: "My team and I developed a newspaper management dashboard application called Newsroom Management. As a front-end developer, I worked on creating the dashboard using NextJS, Material UI, Redux, Calendar, and other necessary npm libraries. We used React Redux to manage the application's state and React-hook-form and Sun Editor to handle forms.",
-        tools: ['NextJS', 'Material UI', 'Redux', 'Sun Editor', "Calendar"],
+        name: 'Tailing Management System',
+        description: "My team and I developed a Dam Sensor based development project. It is used for data will be collected by the sensor  about current and previous condition of the dam. Sensor will Update sensors position movement and water level from dam. User will decide the dam opening and closing by the sensor information.",
+        tools: [ 'React', 'Bootstrap','Material UI', 'Maps',],
         code: '',
+        role: 'Frontend Developer',
         demo: '',
         image: ayla,
-        role: 'Full Stack Developer',
+       
+    },
+    {
+        id: 5,
+        name: 'ERP App',
+        description: "The web application, built using Angular, offers a comprehensive dashboard for managing inventory, orders, customers, and sales. It features real-time data synchronization, an intuitive user interface, and secure access controls to ensure smooth business operations.The mobile application, developed using Flutter, extends the functionality of the web app to mobile devices, providing customers with an easy-to-use platform for browsing and purchasing meats on-the-go. It supports both Android and iOS platforms, ensuring a wide reach and consistent user experience.",
+        tools: [ 'Web app in Angular','PrimeNg','nodejs','Mobile app in Flutter','AndroidSDK'],
+        code: '',
+        role: 'Frontend Developer',
+        demo: '',
+        image: meat,
+       
     }
 ];
 

@@ -1,20 +1,23 @@
 export const educations = [
   {
     id: 1,
-    title: "Bachelor Degree",
-    duration: "2020 - Present",
-    institution: "National University of Bangladesh",
+    title: "Master's Degree",
+    duration: "2018 - 2020",
+    institution: "Annai Group of Institutions",
+    university:"Bharathidasan University"
   },
   {
     id: 2,
-    title: "Higher Secondary Certificate",
-    duration: "2018 - 2020",
-    institution: "Noakhali Islamia Kamil Madrasah",
+    title: "Bachelor Degree",
+    duration: "2015 - 2018",
+    institution: "Annai Group of Institutions",
+    university:"Bharathidasan University"
   },
   {
     id: 3,
-    title: "Secondary School Certificate",
-    duration: "2008 - 2018",
-    institution: "Baitus Saif Islamia Madrasah",
-  }
+    title: "Higher Secondary Certificate",
+    duration: "2014 - 2015",
+    institution: "Nasrul Muslimeen Matriculation Hr Sec School",
+  },
+  
 ]
