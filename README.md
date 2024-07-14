@@ -3,21 +3,18 @@
 </p>
 
 ---
-# [Built Portfolio With GitHub ](https://github.com/said7388/github-portfolio)
+# [Built Portfolio With GitHub ](https://github.com/SaiDBCART/Sai_PortFolio)
 
 ---
 
 # Developer Portfolio
-
-### Are you struggling to create a professional portfolio website? Look no further! You can use the Developer Portfolio template and create your very own personalized portfolio today! My website is designed to be user-friendly and easily customizable, making it perfect for both developers and freelancers.
-
 ---
 
 # Demo :movie_camera:
 
 ![](./public/image/viewshot.png)
 
-## View live preview [here](https://abusaid.netlify.app/).
+## View live preview [here](https://sai-port-folio.vercel.app/).
 
 ---
 
@@ -92,7 +89,7 @@ yarn dev
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 ---
-
+<!-- 
 # Usage :joystick:
 
 Goto [emailjs.com](https://www.emailjs.com/) and create a new account for the mail sending. In free trial you will get 200 mail per month. After setup `emailjs` account, Please create a new `.env` file from `.env.example` file.
@@ -107,7 +104,7 @@ NEXT_PUBLIC_GTM = # For site analytics
 NEXT_PUBLIC_APP_URL = "http://127.0.0.1:3000"
 NEXT_PUBLIC_RECAPTCHA_SECRET_KEY = # For captcha verification on contact form
 NEXT_PUBLIC_RECAPTCHA_SITE_KEY =
-```
+``` -->
 
 ### Then, Customize data in the `utils/data` [folder](https://github.com/SaiDBCART).
 
@@ -129,7 +126,7 @@ export const personalData = {
   stackOverflow: 'https://stackoverflow.com/',
   leetcode: "https://leetcode.com/",
   devUsername: "Saigv000",
-  resume: "...."
+  
 };
 ```
 
